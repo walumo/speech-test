@@ -1,3 +1,8 @@
+html {
+  background-color: #282c34;
+  color: linen;
+}
+
 .App {
   text-align: center;
 }
@@ -38,14 +43,18 @@
 }
 
 .purple {
-  color: purple;
+  color: lightcoral;
+  font-size: large;
 }
 
 button {
-  background-color: ghostwhite;
-  border: 1px solid gray;
-  border-radius: 25%;
-  box-shadow: 1px 1px 1px;
+  background-color: rgb(160, 4, 4);
+  border: 3px solid rgb(230, 111, 111);
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px black;
+  width: 5em;
+  height: 5em;
   margin: 0.5em;
   padding: 0.5em;
+  color: linen;
 }

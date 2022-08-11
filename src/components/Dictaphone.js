@@ -17,6 +17,8 @@ const Dictaphone = () => {
     <div>
         <p>Microphone: {listening ? 'on' : 'off'}</p>
             <button 
+                onTouchStart={SpeechRecognition.startListening}
+                onTouchEnd={SpeechRecognition.stopListening}
                 onMouseDown={SpeechRecognition.startListening} 
                 onMouseUp={SpeechRecognition.stopListening}>Speak
             </button>
