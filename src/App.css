@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.purple {
+  color: purple;
+}
+
+button {
+  background-color: ghostwhite;
+  border: 1px solid gray;
+  border-radius: 25%;
+  box-shadow: 1px 1px 1px;
+  margin: 0.5em;
+  padding: 0.5em;
+}
